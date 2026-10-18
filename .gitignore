@@ -1,0 +1,19 @@
+# vault de Obsidian (notas personales y de estrategia, no se publican)
+/Pacta/
+.obsidian/
+
+# secretos: llaves de Stellar, claves y variables de entorno
+.env
+.env.*
+*.secret
+*.key
+
+# dependencias y archivos generados
+node_modules/
+*.log
+
+# configuracion local de herramientas
+.claude/
+
+# copias comprimidas del vault
+*.zip
